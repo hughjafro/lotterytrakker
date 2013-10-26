@@ -1,0 +1,40 @@
+Lottery Trakker
+
+Basic:
+-access a database of state lotteries (start with california)
+	--SuperLotto Plus Wed/Sat
+	--MegaMillions Tue/Sat
+	--Powerball Wed/Sat
+	--Fantasy 5
+	--Daily Derby …tougher to do bcd of text for horses
+	--Daily 4
+	--Daily 3
+-use the database to populate (ng-show) a list of all input type games
+	******In the United States, lotteries are run by 47 jurisdictions: 44 states 	plus the District of Columbia, Puerto Rico, and the U.S. Virgin Islands.*****
+	-States w/o a lottery: Alabama, Alaska, Hawaii, Nevada, Mississippi, Utah
+
+-accept input in squares
+
+ActiveSupport :: 
+inflect.irregular 'human', 'humans'
+
+CLASSES:
+Sign in
+
+
+FEATURES:
+text:
+	-win only
+	-lose
+	-always
+email:
+	-win only
+	-lose
+	-always
+phone call: twilio/voice call if won
+	-win only
+	-lose
+	-always
+
+*******Do company lottery pools
+-if this feature is added, give Gustavo 'contributor' credit

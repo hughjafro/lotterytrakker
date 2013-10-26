@@ -1,0 +1,39 @@
+<div id="logincontainer">
+	<h1>Sign Up</h1>
+
+<%= form_for @user do |user| %>
+
+<p>
+	<%= user.label :name1, "First Name"%><br />
+	<%= user.text_field :name1, placeholder: "First Name" %>
+</p>
+
+<p>
+	<%= user.label :name2, "Last Name"%><br />
+	<%= user.text_field :name2, placeholder: "Last Name" %>
+</p>
+
+<p>
+	<%= user.label :email, "Email"%><br />
+	<%= user.text_field :email, placeholder: "Email Address" %>
+</p>
+
+<p>
+	<%= user.label :password, "Password"%><br />
+	<%= user.password_field :password, placeholder: "Password" %>
+</p>
+
+<p>
+	<%= user.label :password_confirmation, "Confirm Password"%><br />
+	<%= user.password_field :password_confirmation, placeholder: "Re-enter password"  %>
+</p>
+
+<p>
+	<%= user.submit "Sign Up" %>
+</p>
+
+<%end%>
+
+<hr />
+User id: <%= session[:user_id] %>
+</div>

@@ -1,4 +1,11 @@
 Lotterytrakker::Application.routes.draw do
+
+  get 'users/new' => 'users#new'
+  # get 'users/:id' => 'users#show'
+  post 'users' => 'users#create'
+
+  get 'authentications/new' => 'authentications#new'
+  post 'authentications' => 'authentications#create'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
