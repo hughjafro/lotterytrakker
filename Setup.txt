@@ -6,7 +6,7 @@ Basic:
 	--MegaMillions Tue/Sat
 	--Powerball Wed/Sat
 	--Fantasy 5
-	--Daily Derby …tougher to do bcd of text for horses
+	--Daily Derby …tougher to do bcs of text for horses
 	--Daily 4
 	--Daily 3
 -use the database to populate (ng-show) a list of all input type games

@@ -1,28 +1,51 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This will allow a user to check their lottery numbers for any game in any state. Also, if the user has signed in, they will be able to input and save their numbers in advance of the drawing and be notified of the results as soon as the drawing is officially completed.
 
-Things you may want to cover:
+The initial version will start with CA only.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*ruby version 2.0.0
+*Rails 4.0
+*MongoDB
+*
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+Basic:
+-access a database of state lotteries (start with california)
+	--SuperLotto Plus Wed/Sat
+	--MegaMillions Tue/Sat
+	--Powerball Wed/Sat
+	--Fantasy 5
+	--Daily Derby …tougher to do bcs of text for horses
+	--Daily 4
+	--Daily 3
+-use the database to populate (ng-show) a list of all input type games
+	******In the United States, lotteries are run by 47 jurisdictions: 44 states 	plus the District of Columbia, Puerto Rico, and the U.S. Virgin Islands.*****
+	-States w/o a lottery: Alabama, Alaska, Hawaii, Nevada, Mississippi, Utah
+
+-accept input in squares
+
+ActiveSupport :: 
+inflect.irregular 'human', 'humans'
+
+CLASSES:
+Sign in
+
+
+FEATURES:
+text:
+	-win only
+	-lose
+	-always
+email:
+	-win only
+	-lose
+	-always
+phone call: twilio/voice call if won
+	-win only
+	-lose
+	-always
+
+*******Do company lottery pools
+-if this feature is added, give Gustavo 'contributor' credit
